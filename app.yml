@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: flaskapi
-          image:  vedantkakde/mock-data 
+          image:  vedantkakde/flask-api 
           ports:
             - containerPort: 5000
           env:
