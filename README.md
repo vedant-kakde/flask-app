@@ -32,13 +32,12 @@ Follow the steps below to set up and run the Flask API application:
 4. Create a Kubernetes cluster either in the cloud or locally. Make sure kubectl is configured to access the cluster.
 
 5. Create a PostgreSQL database instance or use an existing one.
-
-Install Helm:
+   Install Helm:
    ```shell
    $ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 ```
 
-Run to install psql: 
+   Run to install psql: 
    ```shell
    $ helm repo add bitnami https://charts.bitnami.com/bitnami 
    $ helm install postgres bitnami/postgresql
