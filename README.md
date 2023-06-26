@@ -70,6 +70,7 @@ Run to install psql:
 * Create a new order: POST /order
 * Get an order: GET /order/<order_id>
 * List all orders: GET /order
+* Search an order: GET /order/search?q=<product_name>
 * Delete an order: DELETE /order/<order_id>
 
 ## Dependencies
